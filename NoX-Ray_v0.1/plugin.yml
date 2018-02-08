@@ -1,0 +1,20 @@
+name: NoX-Ray
+main: aieuo\NoXRay
+version: 0.1
+api: [3.0.0]
+load: POSTWORLD
+author: aieuo
+commands:
+ nx:
+  description: "こまんど"
+  usage: "usage /nx <add | del | list>"
+  permission: nx.command
+ setnx:
+  description: "設定コマンド"
+  usage: "usage /setnx <message | penalty>"
+  permission: setnx.command
+permissions:
+ nx.command:
+  default: op
+ setnx.command:
+  default: op
