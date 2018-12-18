@@ -1,12 +1,12 @@
 name: NoX-Ray
 main: aieuo\NoXRay
-version: 0.1
-api: [3.0.0-ALPHA12]
+version: 1.0
+api: 3.0.0
 load: POSTWORLD
 author: aieuo
 commands:
  nx:
-  description: "こまんど"
+  description: "NoX-Rayのコマンド"
   usage: "usage /nx <add | del | list>"
   permission: nx.command
  setnx:
